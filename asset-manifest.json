@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e562ae69.css",
-    "main.js": "/react-gh-pages/static/js/main.9406d997.js",
-    "static/media/image3.jpg": "/react-gh-pages/static/media/image3.8aa4ff8ba8cfa6a9f60c.jpg",
-    "static/media/logo.jpg": "/react-gh-pages/static/media/logo.b6b2cb888cfcaa5deaf2.jpg",
-    "static/media/fekvő.jpg": "/react-gh-pages/static/media/fekvő.39a491036ee03e247ac4.jpg",
-    "static/media/huzockodás.jpg": "/react-gh-pages/static/media/huzockodás.b2b0f62009d4c311ae8c.jpg",
-    "static/media/image5.jpg": "/react-gh-pages/static/media/image5.64510456974a4ff58778.jpg",
-    "static/media/image4.jpg": "/react-gh-pages/static/media/image4.703e879b62ed0c024fb8.jpg",
-    "static/media/image1.jpg": "/react-gh-pages/static/media/image1.4ab1409910a862be3d12.jpg",
-    "static/media/image2.jpg": "/react-gh-pages/static/media/image2.407e3739f20d5e104fae.jpg",
-    "static/media/kondi.jpg": "/react-gh-pages/static/media/kondi.cc3c427a9851b06ed48d.jpg",
-    "static/media/evezes.jpg": "/react-gh-pages/static/media/evezes.88eba5eab108a66c0d52.jpg",
-    "static/media/guggolás.jpg": "/react-gh-pages/static/media/guggolás.bfe0d814b7475f245364.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.e562ae69.css.map": "/react-gh-pages/static/css/main.e562ae69.css.map",
-    "main.9406d997.js.map": "/react-gh-pages/static/js/main.9406d997.js.map"
+    "main.css": "/react-scss/static/css/main.97c9dcd3.css",
+    "main.js": "/react-scss/static/js/main.c8bb5138.js",
+    "static/media/image3.jpg": "/react-scss/static/media/image3.8aa4ff8ba8cfa6a9f60c.jpg",
+    "static/media/logo.jpg": "/react-scss/static/media/logo.b6b2cb888cfcaa5deaf2.jpg",
+    "static/media/fekvő.jpg": "/react-scss/static/media/fekvő.39a491036ee03e247ac4.jpg",
+    "static/media/huzockodás.jpg": "/react-scss/static/media/huzockodás.b2b0f62009d4c311ae8c.jpg",
+    "static/media/image5.jpg": "/react-scss/static/media/image5.64510456974a4ff58778.jpg",
+    "static/media/image4.jpg": "/react-scss/static/media/image4.703e879b62ed0c024fb8.jpg",
+    "static/media/image1.jpg": "/react-scss/static/media/image1.4ab1409910a862be3d12.jpg",
+    "static/media/image2.jpg": "/react-scss/static/media/image2.407e3739f20d5e104fae.jpg",
+    "static/media/kondi.jpg": "/react-scss/static/media/kondi.cc3c427a9851b06ed48d.jpg",
+    "static/media/evezes.jpg": "/react-scss/static/media/evezes.88eba5eab108a66c0d52.jpg",
+    "static/media/guggolás.jpg": "/react-scss/static/media/guggolás.bfe0d814b7475f245364.jpg",
+    "index.html": "/react-scss/index.html",
+    "main.97c9dcd3.css.map": "/react-scss/static/css/main.97c9dcd3.css.map",
+    "main.c8bb5138.js.map": "/react-scss/static/js/main.c8bb5138.js.map"
   },
   "entrypoints": [
-    "static/css/main.e562ae69.css",
-    "static/js/main.9406d997.js"
+    "static/css/main.97c9dcd3.css",
+    "static/js/main.c8bb5138.js"
   ]
 }
