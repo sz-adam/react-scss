@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../_templates.scss","../styles/Footer.scss","../_mixins.scss","../_variables.scss"],"names":[],"mappings":"AAoBQ;EACI;IACI;IACA;;EAGJ;IACI;IACA;;;;ACxBhB;ECEI,SAD0B;EAE1B,aAF8C;EAG9C,iBAHwE;EAIxE,gBAJgG;EDChG;EACA;;AACA;EACI;;AACA;EACI,aEJA;EFKA,WEJJ;EFKI,OEJmB;;AFMvB;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAKR;EACI,OEnBmB","file":"Footer.css"}

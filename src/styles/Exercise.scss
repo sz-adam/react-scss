@@ -1,0 +1,52 @@
+@use '../variables' as v;
+@import '../templates.scss';
+@import '../mixins';
+
+
+.exerciseContainer {
+    background-color: v.$background-home-color;
+    margin: 0 auto;
+    color: v.$text-color;
+
+    .exerciseTitle {
+        font-size: 1.2rem;
+        padding: 1rem;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .exerciseContent {
+        @include dp-settings($flex-direction:none);
+
+        .exerciseText {
+            @extend %textJustify-align-just;
+            display: flex;
+            margin: v.$emargin;
+            font-size: v.$font-s;
+        }
+
+        .exerciseImage {
+            margin: v.$emargin;
+
+            img {
+                max-width: 300px;
+                max-height: 300px;
+                border-radius: 20px;
+                filter: drop-shadow(8px 8px 6px v.$background-container-colors);
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 874px) {
+
+    .exerciseContent {
+
+        flex-direction: column;
+
+    }
+
+}

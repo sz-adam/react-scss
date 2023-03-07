@@ -1,0 +1,12 @@
+@mixin wh($widht: 100%, $height: auto) {
+    width: $widht;
+    height: $height;
+}
+
+@mixin dp-settings ($display: flex, $align-items: center, $justify-content: center,$flex-direction: column) {
+    display: $display;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    flex-direction: $flex-direction;
+
+}

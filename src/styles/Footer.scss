@@ -1,0 +1,33 @@
+@use '../variables' as v;
+@import '../templates.scss';
+@import '../mixins';
+
+.footer {
+    @include dp-settings();
+    background-image: linear-gradient(to left, v.$header-footer-background1, v.$header-footer-background2);
+    margin-top: auto;
+    .footerContainer {
+        align-items: center;
+        span {
+            font-weight: v.$font-bold;
+            font-size: v.$font-s;
+            color:v.$background-container-colors;
+        }
+        li {
+            display: inline-block;
+            font-size: 2rem;
+            padding: 0 10px;
+            cursor: pointer;       
+
+            &:hover {
+                transform: scale(1.2) ;
+
+            }
+          
+        }
+        a{
+            color:v.$background-container-colors;
+        
+        }
+    }
+}

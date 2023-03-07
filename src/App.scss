@@ -1,0 +1,18 @@
+@use 'variables';
+
+
+%defaults {
+
+  margin: 0;
+  font-family: variables.$font-families;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  @extend %defaults
+}
+
+body {
+ @extend %defaults
+}

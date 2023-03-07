@@ -1,0 +1,81 @@
+@use '../variables' as v;
+@import '../templates.scss';
+@import '../mixins';
+
+
+
+
+
+.contactContainer {
+    @include dp-settings();
+    background-image: url("/images/wave-haikei.png");
+    @extend %back-rps;
+    @extend %back-rps;
+    @include wh($widht: 100%, $height: 80vh);
+
+
+    p,
+    h3 {
+        margin: 10px;
+        text-align: center;
+        color: v.$text-color;
+        font-weight: v.$font-bold;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        @include wh($widht: 80%);
+
+        .error-succes {
+            display: flex;
+            justify-content: center;
+
+            .error {
+                background-color: rgb(216, 73, 73);
+                @extend %error-succes;
+
+            }
+
+            .success {
+                background-color: rgb(84, 253, 92);
+                @extend %error-succes;
+            }
+        }
+
+        input,
+        textarea {
+
+            background: none;
+            border: none;
+            color: v.$text-color;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            caret-color: green;
+            @include wh($height: 40%);
+            border-bottom: v.$b2-solid;
+            margin: 5px 0;
+        }
+
+        button {
+            display: block;
+            margin: auto;
+            padding: 10px;
+            @include wh($widht: 50%);
+            margin-top: 3rem;
+            background: none;
+            border-radius: 30px;
+            cursor: pointer;
+            background: transparent;
+            border: 1px solid #d2d5d8;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 1s ease-in-out;
+                background: v.$header-footer-background2;
+            }
+
+        }
+    }
+}

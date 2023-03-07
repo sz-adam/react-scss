@@ -1,0 +1,41 @@
+@keyframes slideIn {
+  from {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to left, rgb(49, 49, 49), rgb(32, 96, 235));
+  margin-top: auto;
+}
+.footer .footerContainer {
+  align-items: center;
+}
+.footer .footerContainer span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(32, 32, 32);
+}
+.footer .footerContainer li {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.footer .footerContainer li:hover {
+  transform: scale(1.2);
+}
+.footer .footerContainer a {
+  color: rgb(32, 32, 32);
+}
+
+/*# sourceMappingURL=Footer.css.map */

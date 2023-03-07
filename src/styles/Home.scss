@@ -1,0 +1,117 @@
+@use '../variables' as v;
+@import '../templates.scss';
+@import '../mixins';
+
+
+.homeContainer {
+    background-color: v.$background-container-colors;
+    color: v.$text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .home {
+        background-image: url("/images/wave-haikei.png");
+        @extend %back-rps;
+        @extend %textJustify-align-just;
+        @include wh($widht: 100%);
+
+        .homeTextImage {
+            @include dp-settings($flex-direction: row);
+            background-color: rgb(255, 255, 255, 0.1);
+            padding: 5px;
+
+            .homeImagesLogo {
+                @include wh($widht: 70%, $height: 70vh);
+                background-image: url("/images/logo.jpg");
+                @extend %back-rps;
+                border-radius: 60% 40% 70% 30% / 46% 29% 71% 54%;
+            }
+
+        }
+
+
+        
+        .homeText {
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 2rem;
+            color: v.$text-color;
+
+            h1 {
+                color: v.$background-container-colors;
+                font-size: 4rem;
+                padding-top: 10px;
+            }
+    
+            h2 {
+                color: v.$background-container-colors;
+                margin: 0 1rem;
+             
+    
+            }
+
+            p{
+                margin:0 15px;
+            }
+            
+    
+            .homeP {
+                margin: 0 20px;
+                padding-top: 3rem;
+                font-size: v.$font-sizes;
+            }
+    
+    
+           .homeUl {
+                text-align: center;
+                list-style: none;
+                font-size: v.$font-sizes;
+    
+            }
+
+          
+        }
+
+
+        .homeImage {
+
+            display: grid;
+            cursor: pointer;
+            grid-template-columns: repeat(2, 1fr);
+            @extend %text-align-just-cent;
+
+            img {
+                @include wh($widht: 70%, $height: 20vw);
+                object-fit: cover;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+
+        }
+
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 960px) {
+    .homeImage {
+        grid-template-columns: 1fr !important;
+
+        img {
+            min-width: 80% !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .homeTextImage {
+        display: flex !important;
+        flex-direction: column !important;
+
+
+    }
+
+}

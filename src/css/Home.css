@@ -1,0 +1,112 @@
+.homeContainer .home .homeImage {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContainer .home {
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.homeContainer .home .homeTextImage .homeImagesLogo, .homeContainer .home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeContainer {
+  background-color: rgb(32, 32, 32);
+  color: rgb(221, 219, 219);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeContainer .home {
+  background-image: url("/images/wave-haikei.png");
+  width: 100%;
+  height: auto;
+}
+.homeContainer .home .homeTextImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+}
+.homeContainer .home .homeTextImage .homeImagesLogo {
+  width: 70%;
+  height: 70vh;
+  background-image: url("/images/logo.jpg");
+  border-radius: 60% 40% 70% 30%/46% 29% 71% 54%;
+}
+.homeContainer .home .homeText {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: rgb(221, 219, 219);
+}
+.homeContainer .home .homeText h1 {
+  color: rgb(32, 32, 32);
+  font-size: 4rem;
+  padding-top: 10px;
+}
+.homeContainer .home .homeText h2 {
+  color: rgb(32, 32, 32);
+  margin: 0 1rem;
+}
+.homeContainer .home .homeText p {
+  margin: 0 15px;
+}
+.homeContainer .home .homeText .homeP {
+  margin: 0 20px;
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+.homeContainer .home .homeText .homeUl {
+  text-align: center;
+  list-style: none;
+  font-size: 2rem;
+}
+.homeContainer .home .homeImage {
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: repeat(2, 1fr);
+}
+.homeContainer .home .homeImage img {
+  width: 70%;
+  height: 20vw;
+  object-fit: cover;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .homeImage {
+    grid-template-columns: 1fr !important;
+  }
+  .homeImage img {
+    min-width: 80% !important;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .homeTextImage {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */

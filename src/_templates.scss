@@ -1,0 +1,41 @@
+%text-align-just-cent {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+%textJustify-align-just {
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+%error-succes {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+    animation: slideIn 3s ease-in-out forwards;
+        @keyframes slideIn {
+            from{
+                transform: translateY(-150px);
+                opacity: 0;
+                }
+        
+            to {
+                transform: translateY(0);
+                opacity: 1;
+                 }
+        }
+}
+
+%back-rps {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+

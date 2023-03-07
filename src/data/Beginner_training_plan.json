@@ -1,0 +1,164 @@
+
+   [
+      {
+        "day": "1",
+        "dayName": "Toló nap",
+        "excercises": [
+          {
+            "name": "Fekvőtámasz vállszéles kéztartással",
+            "series": 4,
+            "repeat": 5
+          },
+          {
+            "name": "Fekvőtámasz széles kéztartással",
+            "series": 4,
+            "repeat": 5
+          },
+          {
+            "name": "Fekvőtámasz: a karok emelvényen",
+            "series": 4,
+            "repeat": 5
+          },
+          {
+            "name": "Felülés",
+            "series": 4,
+            "repeat": 20
+          },
+          {
+            "name": "Lábtempó hanyatt fekvésben",
+            "series": 4,
+            "repeat": 30
+          }
+        ]
+      },
+
+      {
+        "day": "2",
+        "dayName": "húzó nap",
+        "excercises": [
+          {
+            "name": "Mellhez húzás gumikötéllel",
+            "series": 4,
+            "repeat": 20
+          },
+          {
+            "name": "Nyújtott karos lehúzás gumikötéllel",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Evezés gumikötéllel, szűk fogással",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Inverz evezés széles kéztartással",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Guggolás",
+            "series": 4,
+            "repeat": 15
+          },
+          {
+            "name": "Kitörés / oldal",
+            "series": 4,
+            "repeat": 10 
+          },
+          {
+            "name": "Térdfelhúzás függeszkedve ",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Plank",
+            "series": 4,
+            "repeat": 30
+          }
+
+        ]
+      },
+
+      {
+        "day": "3",
+        "dayName": "toló nap",
+        "excercises": [
+          {
+            "name": "Tolódzkodás párhuzamos korláton",
+            "series": 4,
+            "repeat": 8
+          },
+          {
+            "name": "Tolódzkodás nyújtón",
+            "series": 4,
+            "repeat": 8
+          },
+          {
+            "name": "Fekvőtámasz, a lábak emelvényen, széles tartásban",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Térdemelés párhuzamos korláton",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Lábemelés párhuzamos korláton ",
+            "series": 4,
+            "repeat": 10
+          }
+
+        ]
+      },
+
+      {
+        "day": "4",
+        "dayName": "húzó nap",
+        "excercises": [
+          {
+            "name": "Mellhez húzás gumikötéllel, alsó fogásban",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Húzódzkodás alsó fogásban, vállszéles kartartással",
+            "series": 4,
+            "repeat": 8
+          },
+          {
+            "name": "Inverz evezés alsó fogásban, vállszéles kartartással ",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Inverz evezés alsó fogásban, szűk kartartással ",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Bolgár guggolás  ",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Ugrókötelezés / perc  ",
+            "series": 4,
+            "repeat": 1
+          },
+          {
+            "name": "Térdfelhúzás függeszkedve  ",
+            "series": 4,
+            "repeat": 10
+          },
+          {
+            "name": "Plank / Perc ",
+            "series": 4,
+            "repeat": 1
+          }
+
+        ]
+      }
+
+    ]
